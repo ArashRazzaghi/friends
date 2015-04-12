@@ -1,12 +1,16 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="expansion_elevation" id="38" inline="true" x="123" y="25">
-    <value name="NUMBER">
-      <block type="math_number" id="51">
-        <field name="NUM">0</field>
-      </block>
-    </value>
+  <block type="movement_forward" id="13" x="59" y="24">
     <next>
-      <block type="movement_right" id="90"></block>
+      <block type="robot_delay" id="24" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="60">
+            <field name="NUM">500</field>
+          </block>
+        </value>
+        <next>
+          <block type="movement_right" id="70"></block>
+        </next>
+      </block>
     </next>
   </block>
 </xml>
