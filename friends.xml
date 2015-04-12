@@ -1,3 +1,12 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="64" x="87" y="103"></block>
+  <block type="expansion_elevation" id="38" inline="true" x="123" y="25">
+    <value name="NUMBER">
+      <block type="math_number" id="51">
+        <field name="NUM">15</field>
+      </block>
+    </value>
+    <next>
+      <block type="movement_right" id="90"></block>
+    </next>
+  </block>
 </xml>
