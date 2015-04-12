@@ -1,23 +1,27 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="71" x="3" y="57">
+  <block type="movement_forward" id="136" x="19" y="25">
     <next>
-      <block type="oled_color" id="15">
-        <field name="OBJECT">GREEN</field>
+      <block type="oled_cleardisplay" id="71">
         <next>
-          <block type="oled_setcursor" id="87" inline="true">
-            <value name="STARTX">
-              <block type="math_number" id="117">
-                <field name="NUM">0</field>
-              </block>
-            </value>
-            <value name="STARTY">
-              <block type="math_number" id="103">
-                <field name="NUM">0</field>
-              </block>
-            </value>
+          <block type="oled_color" id="15">
+            <field name="OBJECT">GREEN</field>
             <next>
-              <block type="oled_drawtext" id="126">
-                <field name="TEXT">hey guys!</field>
+              <block type="oled_setcursor" id="87" inline="true">
+                <value name="STARTX">
+                  <block type="math_number" id="117">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+                <value name="STARTY">
+                  <block type="math_number" id="103">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="oled_drawtext" id="126">
+                    <field name="TEXT">hey guys!</field>
+                  </block>
+                </next>
               </block>
             </next>
           </block>
